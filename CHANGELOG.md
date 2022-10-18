@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.0.0](https://github.com/swiety85/angular2gridster/compare/v14.0.0...v15.0.0) (2022-10-18)
+
 ## [13.0.0](https://github.com/swiety85/angular2gridster/compare/v12.0.0...v13.0.0) (2022-01-11)
 
 
