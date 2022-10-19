@@ -1,6 +1,6 @@
 {
   "name": "angular2gridster",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/swiety85/angular2gridster.git"
+    "url": "git+ssh://git@github.com/HyperviewHQ/angular2gridster.git"
   },
   "author": {
     "name": "Damian Wajdlich",
