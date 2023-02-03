@@ -121,9 +121,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/angular2gridster/ng-package.prod.json"
-            ,              "tsConfig": "projects/angular2gridster/tsconfig.lib.prod.json"
-}
+              "project": "projects/angular2gridster/ng-package.prod.json",
+              "tsConfig": "projects/angular2gridster/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -139,5 +139,13 @@
   },
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
+    }
   }
 }
