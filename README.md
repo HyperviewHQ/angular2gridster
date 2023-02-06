@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)
 
 > **Note**
-> This is a fork of [Angular2Gridster](https://github.com/swiety85/angular2gridster). It is updated to Angular 15 with some minor tweaks and updates added.
+> This is a fork of [Angular2Gridster](https://github.com/swiety85/angular2gridster). It is updated to Angular 14+ with some minor tweaks and updates added.
 
 Angular implementation of the well-known Gridster (no jQuery, no external libraries, only Angular and Rx.js). 
 
