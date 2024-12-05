@@ -2,11 +2,11 @@ import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 import { GridsterComponent, IGridsterDraggableOptions, IGridsterOptions } from 'angular2gridster';
 
 @Component({
-    selector: 'demo-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    encapsulation: ViewEncapsulation.None,
-    standalone: false
+	selector: 'demo-root',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.css'],
+	encapsulation: ViewEncapsulation.None,
+	standalone: false
 })
 export class AppComponent implements OnInit {
 	static X_PROPERTY_MAP: any = {
