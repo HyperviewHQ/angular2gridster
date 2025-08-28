@@ -3,30 +3,16 @@
 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)
 
 > **Note**
-> This is a fork of [Angular2Gridster](https://github.com/swiety85/angular2gridster). It is updated to Angular 17+ with some minor tweaks and updates added.
+> This is a fork of [Angular2Gridster](https://github.com/swiety85/angular2gridster). It is updated to Angular 20+ with some minor tweaks and updates added.
 
 Angular implementation of the well-known Gridster (no jQuery, no external libraries, only Angular and Rx.js). 
 
 ## Versions:
 
-- Version **19.x** works with **Angular 19.x**.
-- Version **18.x** works with **Angular 18.x**.
-- Version **17.x** works with **Angular 17.x**.
-- Version **16.x** works with **Angular 16.x**.
-- Version **15.x** works with **Angular 15.x**.
-- Version **14.x** works with **Angular 14.x**.
-- Version **13.x** works with **Angular 13.x**.
-- Version **12.x** works with **Angular 12.x**.
-- Version **11.x** works with **Angular 11.x**.
-- Version **10.x** works with **Angular 10.x**.
-- Version **9.x** works with **Angular 9.x**.
-- Version **8.x** works with **Angular 8.x**.
-- Version **7.x** works with **Angular 7.x**.
-- Version **6.x** works with **Angular 6.x**.
-- Version **5.x** works with **Angular 5.x**.
-- Version **4.x** works with **Angular 4.x**.
+Major versions of this library work with the corresponding Angular major version. For example:
+- Version **20.x** of angular2gridster works with **Angular 20.x**.
 
-Versions **1.x** and **0.x** work only with **Angular 4.x**, but the newest states you can find in **v4.x**.
+Versions **1.x** and **0.x** of this library work only with **Angular 4.x**.
 
 ## Installation
 
