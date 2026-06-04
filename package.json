@@ -78,6 +78,9 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
+  "overrides": {
+    "uuid": "^14.0.0"
+  },
   "description": "[![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
   "main": "updatePackageJson.js"
 }
