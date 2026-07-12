@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "importHelpers": true,
     "esModuleInterop": true,
     "module": "es2020",
@@ -17,7 +16,7 @@
     ],
     "paths": {
       "angular2gridster": [
-        "dist/angular2gridster"
+        "./dist/angular2gridster"
       ]
     },
     "useDefineForClassFields": false

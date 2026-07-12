@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewChild, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
 import { GridsterComponent, IGridsterDraggableOptions, IGridsterOptions } from 'angular2gridster';
 
 @Component({
@@ -6,6 +6,7 @@ import { GridsterComponent, IGridsterDraggableOptions, IGridsterOptions } from '
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.css'],
 	encapsulation: ViewEncapsulation.None,
+	changeDetection: ChangeDetectionStrategy.Eager,
 	standalone: false
 })
 export class AppComponent implements OnInit {
@@ -103,7 +104,7 @@ export class AppComponent implements OnInit {
 	};
 	title = 'Angular2Gridster';
 	widgetsCopy = [];
-	widgets: Array<any> = [
+	widgets: any[] = [
 		{
 			x: 0, y: 0,
 			w: 1, h: 2,
