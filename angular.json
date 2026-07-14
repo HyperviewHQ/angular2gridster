@@ -116,7 +116,7 @@
       "prefix": "ngx",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "builder": "@angular/build:ng-packagr",
           "options": {
             "tsConfig": "projects/angular2gridster/tsconfig.lib.json",
             "project": "projects/angular2gridster/ng-package.json"
@@ -134,6 +134,16 @@
             "main": "projects/angular2gridster/src/test.ts",
             "tsConfig": "projects/angular2gridster/tsconfig.spec.json",
             "karmaConfig": "projects/angular2gridster/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/angular2gridster/**/*.ts",
+              "projects/angular2gridster/**/*.html"
+            ],
+            "eslintConfig": "projects/angular2gridster/eslint.config.js"
           }
         }
       }
